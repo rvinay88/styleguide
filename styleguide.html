@@ -8,94 +8,161 @@
   <title>Foundation 4</title>
 
   
-  <link rel="stylesheet" href="css/foundation.css" />
-  
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/styleguide.css">
 
   <script src="js/vendor/custom.modernizr.js"></script>
 
 </head>
 <body>
+	
+	<div class="row">	<!-- Template -->
+		<div class="span12 columns">
+			<h3>
+				<a id="">  </a>
+			</h3>
+		</div>
+	</div>	<!-- Template -->
 
-	<div class="row">
+	<div class="row">	<!-- colors -->
+		<div class="span12 columns">
+			<h1>
+				<a id="colors">1. Colors</a>
+			</h1>
+			<p>Primary, Primary Light, Primary Dark</p>
+			<p>Secondary, Secondary Light, Secondary Dark</p>
+			<p>Info, Warning, Alert, Success</p>
+		</div>	
+	</div> <!-- colors -->
+	<div class="row"> <!--Primary color-->
+		<div class="span12 columns">
+			<div class="blk blk-primary-color"></div>
+			<div class="blk blk-primary-color-light"></div>
+			<div class="blk blk-primary-color-dark"></div>
+		</div>		
+	</div>	<!--Primary color-->
+
+	<div class="row"> <!--Secondary color-->
+		<div class="span12 columns">
+			<div class="blk blk-secondary-color"></div>			
+			<div class="blk blk-secondary-color-light"></div>
+			<div class="blk blk-secondary-color-dark"></div>
+		</div>		
+	</div> <!--Secondary color-->
+
+	<div class="row"> <!--Other colors-->
+		<div class="span12 columns">
+			<div class="blk blk-info-color"></div>
+			<div class="blk blk-warning-color"></div>
+			<div class="blk blk-success-color"></div>
+			<div class="blk blk-alert-color"></div>
+		</div>		
+	</div><!--Other colors-->
+
+	<hr>
+
+	<div class="row">	<!-- Type -->
+		<div class="span12 columns">
+			<h1>
+				<a id="Type">2. Typography </a>
+			</h1>
+		</div>
+	</div>	<!-- Type -->	
+		<div class="row"> <!--Fonts-->
+			<div class="span12 columns">
+				<div class="sg-font-primary">Primary Font - Futura Light</div>
+				<div class="sg-font-secondary">Secondary Font - Helvetica, Arial, sans-serif</div>
+			</div>		
+		</div><!--Fonts-->
+
+		<hr>
+
+		<div class="row"> <!--Headers Type-->
+			<div class="span12 columns">
+				<h2>2.1Heading Font Styles </h2>
+
+				<h1>Heading 1 - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, nulla.</h1>
+				<h1 class="subheader">Sub-heading 1 - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, nulla.</h1>
+				<h2>Heading 2 - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, dolore.</h2>
+				<h2 class="subheader">Sub-Heading 2 - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, dolore.</h2>
+				<h3>Heading 3 - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, sed?</h3>
+				<h3 class="subheader">Sub-Heading 3 - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, sed?</h3>
+				<h4>Heading 4 - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, amet.</h4>
+				<h4 class="subheader">Sub-Heading 4 - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, amet.</h4>
+				<h5>Heading 5 - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, natus.</h5>
+				<h5 class="subheader">Sub-Heading 5 - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, natus.</h5>
+				<h6>Heading 6 - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, doloribus!</h6>
+				<h6 class="subheader">Sub-Heading 6 - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, doloribus!</h6>
+			</div>		
+		</div><!--Headers Type-->
+		
+		<hr>
+
+		<div class="row"><!--Other Type styles-->
+			<div class="span12 columns">
+				<h2>2.2 Paragraph font styles</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, corrupti, sint maiores placeat accusantium saepe alias explicabo quam expedita blanditiis deserunt ex vitae dolorem officiis necessitatibus quaerat ea nesciunt distinctio cupiditate ipsam. Deserunt, omnis, voluptatem,</p>
+					<p> autem, quaerat iusto temporibus sed perferendis est aspernatur ex possimus sunt cupiditate rem numquam aliquid velit porro eaque repellendus ab labore nisi quasi hic dicta quam enim iste asperiores? Praesentium, sed, harum consequatur ut alias libero natus aliquid doloribus minima asperiores non ullam placeat sunt dolor dolorem voluptate quos vero modi dicta aliquam doloremque officiis nesciunt delectus hic iusto maiores veritatis quam. Tempore, architecto, modi.</p>	
+			</div>
+		</div><!--Other Type styles-->
+		<hr>
+
+	<div class="row"><!-- Buttons Section -->
 		<div class="large-12 columns">
-			<h2>Welcome to Foundation</h2>
-			<p>This is version 4.1.6.</p>
-			<hr />
+			<h3>
+				<a id="buttons">Buttons</a>
+			</h3> 
+		      <div class="row">
+		        <div class="large-6 columns">
+				  <p><a href="#" class="tiny button">Tiny Button</a></p>		        	
+		          <p><a href="#" class="small button">Small Button</a></p>
+		          <p><a href="#" class="button">Medium Button</a></p>
+		          <p><a href="#" class="large button">Large Button</a></p>
+		        </div>
+		        <div class="large-6 columns">
+	        	  <p><a href="#" class="tiny info button">Tiny Info Button</a></p>
+		          <p><a href="#" class="small alert button">Small Alert Button</a></p>
+		          <p><a href="#" class="success button">Medium Success Button</a></p>
+		          <p><a href="#" class="large warning button">Large Warning Button</a></p>
+		        </div> 
+		      </div>
+		      <div class="row">
+		      	<div class="large-12 columns">
+		      		<input type="submit">
+		      	</div>
+		      </div>
 		</div>
-	</div>
+	</div><!-- Buttons Section -->
+	
+	<hr>
 
-	<div class="row">
-		<div class="large-8 columns">
-			<h3>The Grid</h3>
-
-			<!-- Grid Example -->
-			<div class="row">
-				<div class="large-12 columns">
-					<div class="panel">
-						<p>This is a twelve column section in a row. Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
-					</div>
-				</div>
+	<div class="row"><!-- Alerts -->
+		<div class="large-12 columns">
+			<div data-alert class="alert-box info">
+				Info Alert
+				<a href="#" class="close">&times;</a>							
 			</div>
-			<div class="row">
-				<div class="large-6 columns">
-					<div class="panel">
-						<p>Six columns</p>
-					</div>
-				</div>
-				<div class="large-6 columns">
-					<div class="panel">
-						<p>Six columns</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="large-4 columns">
-					<div class="panel">
-						<p>Four columns</p>
-					</div>
-				</div>
-				<div class="large-4 columns">
-					<div class="panel">
-						<p>Four columns</p>
-					</div>
-				</div>
-				<div class="large-4 columns">
-					<div class="panel">
-						<p>Four columns</p>
-					</div>
-				</div>
-			</div>
-
-			<h3>Buttons</h3>
-
-      <div class="row">
-        <div class="large-6 columns">
-          <p><a href="#" class="small button">Small Button</a></p>
-          <p><a href="#" class="button">Medium Button</a></p>
-          <p><a href="#" class="large button">Large Button</a></p>
-        </div>
-        <div class="large-6 columns">
-          <p><a href="#" class="small alert button">Small Alert Button</a></p>
-          <p><a href="#" class="success button">Medium Success Button</a></p>
-          <p><a href="#" class="large secondary button">Large Secondary Button</a></p>
-        </div>
-      </div>
 		</div>
-
-		<div class="large-4 columns">
-			<h4>Getting Started</h4>
-			<p>We're stoked you want to try Foundation! To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-
-			<h4>Other Resources</h4>
-			<p>Once you've exhausted the fun in this document, you should check out:</p>
-			<ul class="disc">
-				<li><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</li>
-				<li><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</li>
-				<li><a href="http://twitter.com/foundationzurb">@foundationzurb</a><br />Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).</li>
-			</ul>
+		<div class="large-12 columns">
+			<div data-alert class="alert-box warning">
+				Warning Alert
+				<a href="#" class="close">&times;</a>							
+			</div>
 		</div>
-	</div>
-
+		<div class="large-12 columns">
+			<div data-alert class="alert-box success">
+				Success Alert
+				<a href="#" class="close">&times;</a>							
+			</div>
+		</div>
+		<div class="large-12 columns">
+			<div data-alert class="alert-box alert">
+				Alert Alert
+				<a href="#" class="close">&times;</a>							
+			</div>
+		</div>
+	</div><!-- Alerts -->
+	<hr>
   <script>
   document.write('<script src=' +
   ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +

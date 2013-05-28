@@ -25,11 +25,11 @@ $alert-border-color:        darken($primary-color, $alert-function-factor) !defa
 $alert-bottom-margin:       emCalc(20px)                                   !default;
 
 // We use these to style the close buttons
-$alert-close-color:         #333                                           !default;
+$alert-close-color:         #000                                           !default;
 $alert-close-position:      emCalc(5px)                                    !default;
 $alert-close-font-size:     emCalc(22px)                                   !default;
-$alert-close-opacity:       0.3                                            !default;
-$alert-close-opacity-hover: 0.5                                            !default;
+$alert-close-opacity:       0.5                                            !default;
+$alert-close-opacity-hover: 0.7                                            !default;
 $alert-close-padding:       5px 4px 4px                                    !default;
 
 // We use this to control border radius
@@ -102,6 +102,8 @@ $alert-radius:              $global-radius                                 !defa
     &.success { @include alert-style($success-color); }
     &.alert { @include alert-style($alert-color); }
     &.secondary { @include alert-style($secondary-color); }
+    &.info { @include alert-style($info-color); }
+    &.warning { @include alert-style($warning-color); }
   }
 
 }

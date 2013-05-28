@@ -1,0 +1,69 @@
+/* line 14, ../scss/foundation/components/_style.scss */
+.blk {
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin: 20px 20px 0 0;
+  border: 2px solid  #000;
+  padding: 0.25em;
+}
+
+/* line 23, ../scss/foundation/components/_style.scss */
+.blk-primary-color {
+  background-color: #2b2b2b;
+}
+
+/* line 26, ../scss/foundation/components/_style.scss */
+.blk-primary-color-light {
+  background-color: #5e5e5e;
+}
+
+/* line 29, ../scss/foundation/components/_style.scss */
+.blk-primary-color-dark {
+  background-color: black;
+}
+
+/* line 33, ../scss/foundation/components/_style.scss */
+.blk-secondary-color {
+  background-color: #cfcfcf;
+}
+
+/* line 36, ../scss/foundation/components/_style.scss */
+.blk-secondary-color-light {
+  background-color: white;
+}
+
+/* line 39, ../scss/foundation/components/_style.scss */
+.blk-secondary-color-dark {
+  background-color: #9c9c9c;
+}
+
+/* line 42, ../scss/foundation/components/_style.scss */
+.blk-info-color {
+  background-color: #4caed9;
+}
+
+/* line 45, ../scss/foundation/components/_style.scss */
+.blk-warning-color {
+  background-color: #f2994b;
+}
+
+/* line 49, ../scss/foundation/components/_style.scss */
+.blk-alert-color {
+  background-color: #8c2e2e;
+}
+
+/* line 52, ../scss/foundation/components/_style.scss */
+.blk-success-color {
+  background-color: #7a9942;
+}
+
+/* line 55, ../scss/foundation/components/_style.scss */
+.sg-font-primary {
+  font-family: futuralight;
+}
+
+/* line 58, ../scss/foundation/components/_style.scss */
+.sg-font-secondary {
+  font-family: "Helvetica Neue";
+}

@@ -1,0 +1,60 @@
+$primary-color: #2b2b2b !default;
+$primary-color-light: lighten($primary-color, 20%) !default;
+$primary-color-dark: darken($primary-color, 20%) !default;
+
+$secondary-color: #cfcfcf !default;
+$secondary-color-light: lighten($secondary-color, 20%);
+$secondary-color-dark: darken($secondary-color, 20%);
+
+$alert-color: #8c2e2e !default;
+$success-color: #7a9942 !default;
+$info-color: #4caed9 !default;
+$warning-color: #f2994b;
+
+.blk{
+		width: 50px;
+		height: 50px;
+		float: left;
+		margin: 20px 20px 0 0;
+		border: 2px solid  #000;
+		padding: 0.25em;
+	}
+
+.blk-primary-color{
+	background-color: $primary-color;
+}
+.blk-primary-color-light{
+	background-color: $primary-color-light;
+}
+.blk-primary-color-dark{
+	background-color: $primary-color-dark;
+}
+
+.blk-secondary-color{
+	background-color: $secondary-color;
+}
+.blk-secondary-color-light{
+	background-color: $secondary-color-light;
+}
+.blk-secondary-color-dark{
+	background-color: $secondary-color-dark;
+}
+.blk-info-color{
+	background-color: $info-color;
+}
+.blk-warning-color{
+	background-color: $warning-color;
+}
+.blk-alert-color
+{
+	background-color: $alert-color;
+}
+.blk-success-color{
+	background-color: $success-color;
+}
+.sg-font-primary{
+	font-family: futuralight;
+}
+.sg-font-secondary{
+	font-family: "Helvetica Neue";
+}

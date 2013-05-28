@@ -1,10 +1,17 @@
 //
 // Typography Variables
 //
+
+// Font face declarations 
+@font-face {
+    font-family: futuralight;
+    src:url('../fonts/Futura-Light.woff');
+}
+
 $include-html-type-classes: $include-html-classes !default;
 
 // We use these to control header font styles
-$header-font-family:                   "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !default;
+$header-font-family:                   $primary-font !default;
 $header-font-weight:                   bold !default;
 $header-font-style:                    normal !default;
 $header-font-color:                    #222 !default;
@@ -14,10 +21,10 @@ $header-bottom-margin:                 .5em !default;
 $header-text-rendering:                optimizeLegibility !default;
 
 // We use these to control header font sizes
-$h1-font-size:                         emCalc(44px) !default;
-$h2-font-size:                         emCalc(37px) !default;
-$h3-font-size:                         emCalc(27px) !default;
-$h4-font-size:                         emCalc(23px) !default;
+$h1-font-size:                         emCalc(25px) !default;
+$h2-font-size:                         emCalc(23px) !default;
+$h3-font-size:                         emCalc(21px) !default;
+$h4-font-size:                         emCalc(20px) !default;
 $h5-font-size:                         emCalc(18px) !default;
 $h6-font-size:                         1em !default;
 
@@ -36,6 +43,7 @@ $small-font-color:                     lighten($header-font-color, 30%) !default
 $paragraph-font-family:                inherit !default;
 $paragraph-font-weight:                normal !default;
 $paragraph-font-size:                  1em !default;
+$paragraph-font-color:                 $primary-color-light !default;
 $paragraph-line-height:                1.6 !default;
 $paragraph-margin-bottom:              emCalc(20px) !default;
 $paragraph-aside-font-size:            emCalc(14px) !default;
@@ -164,6 +172,7 @@ $microformat-abbr-font-decoration:     none !default;
     font-weight: $paragraph-font-weight;
     font-size: $paragraph-font-size;
     line-height: $paragraph-line-height;
+    font-color: $paragraph-font-color;
     margin-bottom: $paragraph-margin-bottom;
     text-rendering: $paragraph-text-rendering;
 
