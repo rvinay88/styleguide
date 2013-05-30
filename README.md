@@ -1,11 +1,15 @@
+#Rules for images#
+
 - [Rules for images](#rules-for-images)
+        - [Generic Rules](#generic-rules)
 	- [Full size products](#full-size-products)
 	- [Medium to full size images](#medium-to-full-size-images)
 	- [Torso Images](#torso-images)
 	- [Bottom Images](#bottom-images)
 	- [Product Images](#product-images)
     - [Grid](#grid)
-#Rules for images#
+
+##Generic Rules##
 
 * Image proportion maintained at 640x960px 
 * No white space above and below the model (No shoe reflections)
