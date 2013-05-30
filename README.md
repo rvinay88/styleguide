@@ -1,13 +1,14 @@
 #Guide for images#
 
-        - [Rules for images](#rules-for-images)
-        - [Generic Rules](#generic-rules)
-	- [Full size products](#full-size-products)
-	- [Medium to full size images](#medium-to-full-size-images)
-	- [Torso Images](#torso-images)
-	- [Bottom Images](#bottom-images)
-	- [Product Images](#product-images)
-    - [Grid](#grid)
+**Contents**
+
+- [Generic Rules](#generic-rules)
+- [Full size products](#full-size-products)
+- [Medium to full size images](#medium-to-full-size-images)
+- [Torso Images](#torso-images)
+- [Bottom Images](#bottom-images)
+- [Product Images](#product-images)
+- [Grid](#grid)
 
 ##Generic Rules##
 
