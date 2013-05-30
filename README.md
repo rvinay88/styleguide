@@ -46,6 +46,10 @@ Images of products are usually maintained at a higher zoom level. The product im
 * Very little white space above and below the product 
 
 ##Grid 
-The grid should look as below, where all product images/images with models have the same amount of zoom, white space and size. 
+The grid should look as below
+* Product should be visible fully
+* All product images look similar 
+* All images with models look similar 
+* All similar images have the same amount of zoom, white space and size. 
 
 ![](https://dl.dropboxusercontent.com/u/2982840/images%20for%20styleguide/grid.PNG)
