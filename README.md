@@ -1,6 +1,6 @@
-#Rules for images#
+#Guide for images#
 
-- [Rules for images](#rules-for-images)
+        - [Rules for images](#rules-for-images)
         - [Generic Rules](#generic-rules)
 	- [Full size products](#full-size-products)
 	- [Medium to full size images](#medium-to-full-size-images)
