@@ -1,10 +1,10 @@
 - [Rules for images](#rules-for-images)
-  - [Full size products](#full-size-products)
+	- [Full size products](#full-size-products)
 	- [Medium to full size images](#medium-to-full-size-images)
 	- [Torso Images](#torso-images)
 	- [Bottom Images](#bottom-images)
 	- [Product Images](#product-images)
-
+    - [Grid](#grid)
 #Rules for images#
 
 * Image proportion maintained at 640x960px 
@@ -44,3 +44,8 @@ Images of products are usually maintained at a higher zoom level. The product im
 ![](https://dl.dropboxusercontent.com/u/2982840/images%20for%20styleguide/product%20images.PNG) 
 * Fit the image to the 640x960px grid 
 * Very little white space above and below the product 
+
+##Grid 
+The grid should look as below, where all product images/images with models have the same amount of zoom, white space and size. 
+
+![](https://dl.dropboxusercontent.com/u/2982840/images%20for%20styleguide/grid.PNG)
