@@ -1,3 +1,10 @@
+- [Rules for images](#rules-for-images)
+  - [Full size products](#full-size-products)
+	- [Medium to full size images](#medium-to-full-size-images)
+	- [Torso Images](#torso-images)
+	- [Bottom Images](#bottom-images)
+	- [Product Images](#product-images)
+
 #Rules for images#
 
 * Image proportion maintained at 640x960px 
