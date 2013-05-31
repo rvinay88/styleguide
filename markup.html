@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Markup for New screens</title>
+
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/styleguide.css">
+
+  <script src="js/vendor/custom.modernizr.js"></script>
+
+</head>
+<body>
+	<div class="row">
+		<div class="large-12 columns">
+			<div class="section-container auto" data-section>
+			  <section>
+			    <p class="title" data-section-title><a href="#collection-details">Collection Details</a></p>
+			    <div class="content" data-section-content>
+			      <form action="" class="custom">
+			      	<div class="row">
+			      		<div class="large-6 columns">
+			      			<label for="">
+			      				Collection Name
+			      			</label>
+			      			<input type="text"></input>
+			      			<label for="season">Season</label>
+							<input type="text"></input>
+			      			<label for="country">Country of Manufacture</label>
+						    <select id="country" class="medium">
+								<option value="21">Belgium</option>
+								<option value="64">El Salvador</option>
+								<option value="73">France</option>
+								<option value="99">India</option>
+								<option value="103">Ireland</option>
+								<option value="105">Italy</option>
+								<option value="118">Lebanon</option>
+								<option value="150">Netherlands</option>
+								<option value="187">Saudi Arabia</option>
+								<option value="197">South Africa</option>
+								<option value="205">Sweden</option>
+								<option value="225">United Kingdom</option>
+								<option value="226">United States</option>
+					    	</select>
+					    	<label for="status">Status</label>
+						    <select id="status" class="medium">
+							    <option>In-Stock</option>
+							    <option>UK</option>
+							    <option>Out of stock</option>
+					    	</select>
+			      		</div>
+			      		<div class="large-6 columns">
+			      			<label for="start-date">Start Date</label>
+			      			<input type="date" id="end-date">End Date</input>
+			      			<input type="date" id="end-date"></input>
+
+			      			<label for="country">Weight Unit</label>
+						    <select id="weight" class="medium">
+								<option value="">LB</option>
+								<option value="">KG</option>
+					    	</select>
+					    	<label for="currency">Currency</label>
+						    <select id="currency" class="medium">
+							    <option>AUD</option>
+							    <option>USD</option>
+							    <option>INR</option>
+							    <option>GBP</option>
+					    	</select>			      			
+			      		</div>
+
+			      	</div>
+			      </form>
+			    </div>
+			  </section>
+			  <section>
+			    <p class="title" data-section-title><a href="#products">Products</a></p>
+			    <div class="content" data-section-content>
+			      <p>Content of section 2.</p>
+			    </div>
+			  </section>
+			  <section>
+			    <p class="title" data-section-title><a href="#inventory">Inventory</a></p>
+			    <div class="content" data-section-content>
+			      <p>Content of section 3.</p>
+			    </div>
+			  </section>			  
+			</div>			
+		</div>
+	</div>
+  <script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+  '.js><\/script>')
+  </script>
+  
+  <script src="js/foundation.min.js"></script>
+
+  <script>
+    $(document).foundation();
+  </script>	
+</body>
+</html>

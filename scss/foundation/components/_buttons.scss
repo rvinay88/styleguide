@@ -20,8 +20,8 @@ $button-font-color-alt:   #333 !default;
 $button-font-med:         emCalc(16px) !default;
 $button-font-tny:         emCalc(11px) !default;
 $button-font-sml:         emCalc(13px) !default;
-$button-font-lrg:         emCalc(20px) !default;
-$button-font-weight:      bold !default;
+$button-font-lrg:         emCalc(18px) !default;
+$button-font-weight:      normal !default;
 $button-font-align:       center !default;
 
 // We use these to control various hover effects.
@@ -40,7 +40,7 @@ $button-round:            $global-rounded !default;
 $button-disabled-opacity: 0.6 !default;
 
 $button-text-transform: uppercase;
-
+$button-cursor: pointer;
 //
 // Button Mixins
 //
