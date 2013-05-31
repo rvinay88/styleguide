@@ -59,11 +59,17 @@
 }
 
 /* line 55, ../scss/foundation/components/_style.scss */
+.sg-font {
+  font-size: 30px;
+  line-height: 2em;
+}
+
+/* line 59, ../scss/foundation/components/_style.scss */
 .sg-font-primary {
   font-family: futuralight;
 }
 
-/* line 58, ../scss/foundation/components/_style.scss */
+/* line 62, ../scss/foundation/components/_style.scss */
 .sg-font-secondary {
   font-family: "Helvetica Neue";
 }

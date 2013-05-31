@@ -69,8 +69,8 @@
 	</div>	<!-- Type -->	
 		<div class="row"> <!--Fonts-->
 			<div class="span12 columns">
-				<div class="sg-font-primary">Primary Font - Futura Light</div>
-				<div class="sg-font-secondary">Secondary Font - Helvetica, Arial, sans-serif</div>
+				<div class="sg-font sg-font-primary">Primary Font - Futura Light</div>
+				<div class="sg-font sg-font-secondary">Secondary Font - Helvetica, Arial, sans-serif</div>
 			</div>		
 		</div><!--Fonts-->
 
@@ -161,6 +161,56 @@
 			</div>
 		</div>
 	</div><!-- Alerts -->
+	<hr>
+	<div class="row">	<!-- Dropdown -->
+		<h3>Dropdown buttons</h3>
+		<div class="large-12 columns">
+			<div class="large-6 columns">
+				<!-- Size Classes -->
+				<p><a href="#" class="button dropdown">Default Button</a></p>
+				<p><a href="#" class="tiny button dropdown">Tiny Button</a></p>
+				<p><a href="#" class="small button dropdown">Small Button</a></p>
+				<p><a href="#" class="large button dropdown">Large Button</a></p>
+				<!-- Radius Classes -->
+				<p><a href="#" class="button dropdown radius">Radius Button</a></p>
+				<p><a href="#" class="button dropdown round">Round Button</a></p>								
+			</div>
+			<div class="large-6 columns">
+				<!-- Color Classes -->				
+				<p><a href="#" class="button dropdown secondary">Secondary Button</a></p>
+				<p><a href="#" class="button dropdown success">Success Button</a></p>
+				<p><a href="#" class="button dropdown alert">Alert Button</a></p>
+				<p><a href="#" class="button dropdown warning">Warning Button</a></p>
+				<p><a href="#" class="button dropdown info">Info Button</a></p>				
+			</div>
+		</div>
+		<div class="large-12 columns">
+			<div class="large-6 columns">
+				<!-- Input dropdown -->			
+				<p><a href="#" data-dropdown="drop1" class="dropdown"></p>
+					<input type="text" class="small dropdown"></input>
+					<ul id="drop1" class="f-dropdown">
+						<li><a href="#">This is a link</a></li>
+						<li><a href="#">This is a link</a></li>
+						<li><a href="#">This is a link</a></li>
+					</ul>
+				</a>
+				<p></p><!-- Datalist - autocomplete input box  -->
+				<label>Your favorite fruit:
+				<datalist id="fruits">
+				  <select name="fruits">
+				    <option value="Blackberry">Blackberry</option>
+				    <option value="Blackcurrant">Blackcurrant</option>
+				    <option value="Blueberry">Blueberry</option>
+				    <!-- … -->
+				  </select>
+				If other, please specify:
+				</datalist>
+				  <input type="text" name="fruit" list="fruits">
+				</label>				
+			</div>			
+		</div>
+	</div>
 	<hr>
   <script>
   document.write('<script src=' +
