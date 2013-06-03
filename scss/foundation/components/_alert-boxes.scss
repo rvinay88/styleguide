@@ -49,6 +49,7 @@ $alert-radius:              $global-radius                                 !defa
   position: relative;
   padding: $alert-padding-top $alert-padding-opposite-direction $alert-padding-bottom $alert-padding-default-float;
   font-size: $alert-font-size;
+
 }
 
 // We use this mixin to add alert styles
@@ -101,6 +102,7 @@ $alert-radius:              $global-radius                                 !defa
 
     &.success { @include alert-style($success-color); }
     &.alert { @include alert-style($alert-color); }
+    &.primary { @include alert-style($primary-color); }
     &.secondary { @include alert-style($secondary-color); }
     &.info { @include alert-style($info-color); }
     &.warning { @include alert-style($warning-color); }
