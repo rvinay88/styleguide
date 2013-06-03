@@ -9,7 +9,7 @@
     version : '4.1.3',
 
     settings : {
-      deep_linking: false,
+      deep_linking: true,
       one_up: true,
       section_selector : '[data-section]',
       region_selector : 'section, .section, [data-section-region]',

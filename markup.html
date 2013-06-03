@@ -93,12 +93,23 @@
 							</div>
 						</div>	
 						<div class="large-12 columns">
-							<div class="large-2 columns">XS</div>
-							<div class="large-2 columns">S</div>
-							<div class="large-2 columns">M</div>
-							<div class="large-2 columns">L</div>
-							<div class="large-2 columns">XL</div>
-							<div class="large-2 columns"></div>
+<!-- 							<div class="large-2 columns selectable">XS</div>
+							<div class="large-2 columns selectable">S</div>
+							<div class="large-2 columns selectable">M</div>
+							<div class="large-2 columns selectable">L</div>
+							<div class="large-2 columns selectable">XL</div> -->
+						</div>
+						<div class="large-12 columns">
+								<span class="label selectable selected">selected</span>
+								<span class="label selectable selected">XS</span>
+								<span class="label selectable">XS</span>
+								<span class="label selectable">XS</span>
+								<span class="label selectable">XS</span>
+								<span class="label selectable">XS</span>
+								<span class="label selectable disabled">disabled</span>
+								<span class="label selectable disabled">XS</span>
+								<span class="label selectable">XS</span>
+								<span class="label selectable">XS</span>
 						</div>
 					</div>
 					<div class="row">
@@ -106,7 +117,28 @@
 							<div class="alert-box primary">Shoes</div>							
 						</div>
 						<div class="large-12 columns">
-							<!-- Labels go here -->
+								<span class="label selectable selected">selected</span>
+								<span class="label selectable selected">XS</span>
+								<span class="label selected">Selected but locked</span>
+								<span class="label selected">XS</span>
+								<span class="label selectable">XS</span>
+								<span class="label selectable">XS</span>
+								<span class="label selectable disabled">disabled</span>
+								<span class="label selectable disabled">XS</span>
+								<span class="label selectable">XS</span>
+								<span class="label selectable">XS</span>
+						</div>
+						<div class="large-12 columns">
+								<span class="label selectable selected">selected</span>
+								<span class="label selectable selected">XS</span>
+								<span class="label selected">Selected but locked</span>
+								<span class="label selected">XS</span>
+								<span class="label selectable">XS</span>
+								<span class="label selectable">XS</span>
+								<span class="label selectable disabled">disabled</span>
+								<span class="label selectable disabled">XS</span>
+								<span class="label selectable">XS</span>
+								<span class="label selectable">XS</span>
 						</div>
 					</div>		
 					<div class="row">
@@ -115,13 +147,26 @@
 								Custom
 							</div>														
 						</div>
+						<div class="large-12 columns">
+								<button class="button small append-trigger">Add New</button>
+								<button class="button small">Edit</button>
+						</div>
+						<div class="large-12 columns appendable">
+							<div class="large-4 columns">
+								<input type="text" placeholder="Custom Size"></input>
+								<input type="text" placeholder="Custom Size"></input>
+								<input type="text" readonly="true" placeholder="Custom Size Read only"></input>								
+							</div>
 					</div>
 					<div class="row">
 						<div class="large-12 columns">
 							<div class="right"> <!-- Next Button -->
-								<div class="button primary radius">
-									Next
-								</div>
+								<a href="#products">
+									<div class="button primary radius" id="next">
+										Next
+									</div>
+								</a>
+
 							</div> <!-- Next Button -->							
 						</div>
 					</div>
@@ -131,13 +176,13 @@
 			  </section>
 			  <section>
 			    <p class="title" data-section-title><a href="#products">Products</a></p>
-			    <div class="content" data-section-content>
+			    <div class="content" data-section-content id="products">
 			      <p>Content of section 2.</p>
 			    </div>
 			  </section>
 			  <section>
 			    <p class="title" data-section-title><a href="#inventory">Inventory</a></p>
-			    <div class="content" data-section-content>
+			    <div class="content" data-section-content id="content">
 			      <p>Content of section 3.</p>
 			    </div>
 			  </section>			  
@@ -151,7 +196,7 @@
   </script>
   
   <script src="js/foundation.min.js"></script>
-
+  <script src="js/foundation/foundation-selectable.js"></script>
   <script>
     $(document).foundation();
   </script>	
