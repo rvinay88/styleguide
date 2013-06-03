@@ -59,7 +59,7 @@ $pagination-link-current-active-bg:      $primary-color !default;
 
       &:hover a,
       a:focus { background: $pagination-link-active-bg; }
-
+      &:active {background-color: red};
       &.unavailable a {
         cursor: $pagination-link-unavailable-cursor;
         color: $pagination-link-unavailable-font-color;

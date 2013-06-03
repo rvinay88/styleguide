@@ -5463,6 +5463,10 @@ kbd {
 .pagination li a:focus {
   background: #e6e6e6;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_pagination\.scss}line{font-family:\0000362}}
+.pagination li:active {
+  background-color: red;
+}
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_pagination\.scss}line{font-family:\0000363}}
 .pagination li.unavailable a {
   cursor: default;
