@@ -6291,6 +6291,516 @@ a.th {
   max-width: 800px;
 }
 
+/* font-face */
+@font-face {
+  font-family: "GeneralFoundicons";
+  src: url("../fonts/foundation_icons_general/general_foundicons.eot");
+  src: url("../fonts/foundation_icons_general/general_foundicons.eot?#iefix") format("embedded-opentype"), url("../fonts/foundation_icons_general/general_foundicons.woff") format("woff"), url("../fonts/foundation_icons_general/general_foundicons.ttf") format("truetype"), url("../fonts/foundation_icons_general/general_foundicons.svg#GeneralFoundicons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* global foundicon styles */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000334}}
+[class*="foundicon-"] {
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: inherit;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000344}}
+[class*="foundicon-"]:before {
+  font-family: "GeneralFoundicons";
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  margin-right: 0.4375em;
+}
+
+/* icons */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-settings:before {
+  content: "\f000";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-heart:before {
+  content: "\f001";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-star:before {
+  content: "\f002";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-plus:before {
+  content: "\f003";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-minus:before {
+  content: "\f004";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-checkmark:before {
+  content: "\f005";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-remove:before {
+  content: "\f006";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-mail:before {
+  content: "\f007";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-calendar:before {
+  content: "\f008";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-page:before {
+  content: "\f009";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-tools:before {
+  content: "\f00a";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-globe:before {
+  content: "\f00b";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-home:before {
+  content: "\f00c";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-quote:before {
+  content: "\f00d";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-people:before {
+  content: "\f00e";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-monitor:before {
+  content: "\f00f";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-laptop:before {
+  content: "\f010";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-phone:before {
+  content: "\f011";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-cloud:before {
+  content: "\f012";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-error:before {
+  content: "\f013";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-right-arrow:before {
+  content: "\f014";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-left-arrow:before {
+  content: "\f015";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-up-arrow:before {
+  content: "\f016";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-down-arrow:before {
+  content: "\f017";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-trash:before {
+  content: "\f018";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-add-doc:before {
+  content: "\f019";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-edit:before {
+  content: "\f01a";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-lock:before {
+  content: "\f01b";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-unlock:before {
+  content: "\f01c";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-refresh:before {
+  content: "\f01d";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-paper-clip:before {
+  content: "\f01e";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-video:before {
+  content: "\f01f";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-photo:before {
+  content: "\f020";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-graph:before {
+  content: "\f021";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-idea:before {
+  content: "\f022";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-mic:before {
+  content: "\f023";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-cart:before {
+  content: "\f024";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-address-book:before {
+  content: "\f025";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-compass:before {
+  content: "\f026";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-flag:before {
+  content: "\f027";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-location:before {
+  content: "\f028";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-clock:before {
+  content: "\f029";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-folder:before {
+  content: "\f02a";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-inbox:before {
+  content: "\f02b";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-website:before {
+  content: "\f02c";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-smiley:before {
+  content: "\f02d";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\000036}}
+.foundicon-search:before {
+  content: "\f02e";
+}
+
+/* general icons for IE7 */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\00003102}}
+[class*="foundicon-"] {
+  font-family: "GeneralFoundicons";
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-settings {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf000;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-heart {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf001;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-star {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf002;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-plus {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf003;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-minus {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf004;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-checkmark {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf005;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-remove {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf006;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-mail {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf007;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-calendar {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf008;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-page {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf009;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-tools {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00a;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-globe {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00b;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-home {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00c;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-quote {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00d;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-people {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00e;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-monitor {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00f;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-laptop {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf010;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-phone {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf011;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-cloud {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf012;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-error {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf013;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-right-arrow {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf014;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-left-arrow {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf015;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-up-arrow {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf016;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-down-arrow {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf017;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-trash {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf018;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-add-doc {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf019;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-edit {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01a;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-lock {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01b;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-unlock {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01c;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-refresh {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01d;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-paper-clip {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01e;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-video {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01f;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-photo {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf020;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-graph {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf021;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-idea {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf022;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-mic {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf023;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-cart {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf024;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-address-book {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf025;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-compass {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf026;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-flag {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf027;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-location {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf028;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-clock {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf029;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-folder {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02a;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-inbox {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02b;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-website {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02c;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-smiley {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02d;");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_foundicons\.scss}line{font-family:\0000312}}
+.foundicon-search {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02e;");
+}
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_selectable\.scss}line{font-family:\0000312}}
 .selectable, .disabled {
   background-color: #cfcfcf;
