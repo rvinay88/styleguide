@@ -7,4 +7,7 @@ $(document).ready(function(){
   $("#next-products").click(function () {
 		$("#products").trigger('click');
 	});
+  $("#next-inventory").click(function () {
+		$("#inventory").trigger('click');
+	});
 })
