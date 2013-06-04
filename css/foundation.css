@@ -1709,7 +1709,7 @@ small {
 code {
   font-family: Consolas, "Liberation Mono", Courier, monospace;
   font-weight: bold;
-  color: #521b1b;
+  color: #5f1703;
 }
 
 /* Lists */
@@ -2044,13 +2044,13 @@ button.success:hover, button.success:focus, .button.success:hover, .button.succe
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_buttons\.scss}line{font-family:\00003179}}
 button.alert, .button.alert {
-  background-color: #8c2e2e;
-  border-color: #662121;
+  background-color: #a92906;
+  border-color: #781d04;
   color: white;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_buttons\.scss}line{font-family:\00003123}}
 button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
-  background-color: #662121;
+  background-color: #781d04;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_buttons\.scss}line{font-family:\00003134}}
 button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
@@ -2192,8 +2192,8 @@ button.disabled.success:hover, button.disabled.success:focus, button[disabled].s
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_buttons\.scss}line{font-family:\00003194}}
 button.disabled.alert, button[disabled].alert, .button.disabled.alert, .button[disabled].alert {
-  background-color: #8c2e2e;
-  border-color: #662121;
+  background-color: #a92906;
+  border-color: #781d04;
   color: white;
   cursor: default;
   opacity: 0.6;
@@ -2202,7 +2202,7 @@ button.disabled.alert, button[disabled].alert, .button.disabled.alert, .button[d
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_buttons\.scss}line{font-family:\00003123}}
 button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
-  background-color: #662121;
+  background-color: #781d04;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_buttons\.scss}line{font-family:\00003134}}
 button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
@@ -2210,7 +2210,7 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_buttons\.scss}line{font-family:\00003147}}
 button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
-  background-color: #8c2e2e;
+  background-color: #a92906;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_buttons\.scss}line{font-family:\00003199}}
@@ -2613,8 +2613,8 @@ fieldset legend {
 input.error,
 .error textarea,
 textarea.error {
-  border-color: #8c2e2e;
-  background-color: rgba(140, 46, 46, 0.1);
+  border-color: #a92906;
+  background-color: rgba(169, 41, 6, 0.1);
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_forms\.scss}line{font-family:\00003230}}
 .error input:focus,
@@ -2628,7 +2628,7 @@ textarea.error:focus {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_forms\.scss}line{font-family:\00003358}}
 .error label,
 label.error {
-  color: #8c2e2e;
+  color: #a92906;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_forms\.scss}line{font-family:\00003361}}
@@ -2640,7 +2640,7 @@ small.error {
   margin-bottom: 1em;
   font-size: 0.75em;
   font-weight: bold;
-  background: #8c2e2e;
+  background: #a92906;
   color: white;
 }
 
@@ -3168,7 +3168,7 @@ form.custom .custom.disabled {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_split-buttons\.scss}line{font-family:\0000379}}
 .split.button.alert span {
-  border-left-color: #521b1b;
+  border-left-color: #5f1703;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_split-buttons\.scss}line{font-family:\0000379}}
 .split.button.success span {
@@ -4123,11 +4123,11 @@ form.custom .custom.disabled {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_top-bar\.scss}line{font-family:\00003268}}
 .top-bar-section ul li > a.button.alert {
-  background: #8c2e2e;
+  background: #a92906;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_top-bar\.scss}line{font-family:\00003270}}
 .top-bar-section ul li > a.button.alert:hover {
-  background: #662121;
+  background: #781d04;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_top-bar\.scss}line{font-family:\00003278}}
 .top-bar-section ul li.active > a {
@@ -5251,8 +5251,8 @@ form.custom .custom.disabled {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_alert-boxes\.scss}line{font-family:\00003104}}
 .alert-box.alert {
-  background-color: #8c2e2e;
-  border-color: #662121;
+  background-color: #a92906;
+  border-color: #781d04;
   color: white;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_alert-boxes\.scss}line{font-family:\00003105}}
@@ -5400,7 +5400,7 @@ kbd {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_labels\.scss}line{font-family:\0000380}}
 .label.alert {
-  background-color: #8c2e2e;
+  background-color: #a92906;
   color: white;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_labels\.scss}line{font-family:\0000381}}
@@ -5654,7 +5654,7 @@ kbd {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_progress-bars\.scss}line{font-family:\0000359}}
 .progress.alert .meter {
-  background: #8c2e2e;
+  background: #a92906;
   height: 100%;
   display: block;
 }
@@ -6306,5 +6306,5 @@ a.th {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_selectable\.scss}line{font-family:\0000323}}
 .disabled {
-  background-color: #8c2e2e;
+  background-color: #a92906;
 }

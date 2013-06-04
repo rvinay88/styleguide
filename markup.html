@@ -6,7 +6,7 @@
 
   <link rel="stylesheet" href="css/foundation.css">
   <link rel="stylesheet" href="css/styleguide.css">
-  <link rel="stylesheet" href="css/jquery.handsontable.full.css">
+  <link rel="stylesheet" href="css/handsontable.css">
 
   <script src="js/vendor/custom.modernizr.js"></script>
 
@@ -14,11 +14,11 @@
 <body>
 	<div class="row">
 		<div class="large-12 columns">
+		  <form action="" class="custom">
 			<div class="section-container auto" data-section>
 			  <section>
 			    <p class="title" data-section-title><a href="#collection-details">Collection Details</a></p>
 			    <div class="content" data-section-content>
-			      <form action="" class="custom">
 			      	<div class="row">
 			      		<div class="large-6 columns">
 			      			<label for="">
@@ -94,13 +94,6 @@
 							</div>
 						</div>	
 						<div class="large-12 columns">
-<!-- 							<div class="large-2 columns selectable">XS</div>
-							<div class="large-2 columns selectable">S</div>
-							<div class="large-2 columns selectable">M</div>
-							<div class="large-2 columns selectable">L</div>
-							<div class="large-2 columns selectable">XL</div> -->
-						</div>
-						<div class="large-12 columns">
 								<span class="label selectable selected">selected</span>
 								<span class="label selectable selected">XS</span>
 								<span class="label selectable">XS</span>
@@ -158,7 +151,8 @@
 								<input type="text" placeholder="Custom Size"></input>
 								<input type="text" readonly="true" placeholder="Custom Size Read only"></input>								
 							</div>
-					</div>
+						</div><!-- Alert Box -->
+		    		</div>
 					<div class="row">
 						<div class="large-12 columns">
 							<div class="right"> <!-- Next Button -->
@@ -170,14 +164,12 @@
 							</div> <!-- Next Button -->							
 						</div>
 					</div>
-					<!-- Alert Box -->
-			      </form>
-			    </div>
+				</div> <!--Data Content  -->		    		
 			  </section>
 			  <section>
 			    <p class="title" data-section-title id="products"><a href="#products">Products</a></p>
 			    <div class="content" data-section-content>
-			      <p>Content of section 2.</p>
+			      <p>To upload your collection to R2S marketplace using a spreadsheet , download our template</p>
 			      <div class="row">
 			      	<div class="large-12 columns">
 			      		<div id="example1">
@@ -201,38 +193,58 @@
 			  <section>
 			    <p class="title" data-section-title id="inventory"><a href="#inventory">Inventory</a></p>
 			    <div class="content" data-section-content id="content">
-			      <p>Content of section 3.</p>
-			    </div>
-			  </section>			  
-			</div>			
-		</div>
-	</div>
+			      <p>To upload your collection to R2S marketplace using a spreadsheet , download our template</p>
+			      	<div class="large-12 columns">
+			      		<div id="example2">
+			      			
+			      		</div>
+			      	</div>
+					<div class="row">
+						<div class="large-12 columns">
+							<div class="right"> <!-- Next Button -->
+								<a href="#products">
+									<div class="button primary radius" id="save">
+										Save
+									</div>
+								</a>
+							</div> <!-- Next Button -->								
+						</div>
+					</div>					      	
+			    </div>	<!-- Content  -->		      
+			  </section>	  		    			  
+			</div> <!-- Section Container -->			
+		  </form>
+		</div> <!-- Large -12  -->
+	</div> <!-- Row -->
   <script>
   document.write('<script src=' +
-  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+  ('__proto__' in {} ? 'js/vendor/jquery' : 'js/vendor/zepto') +
   '.js><\/script>')
   </script>
   
   <script src="js/foundation.min.js"></script>
   <script src="js/foundation/custom.js"></script>
-  <script src="js/foundation/vendor/jquery.handsontable.full.js"></script>
+  <script src="js/vendor/jquery.handsontable.full.js"></script>
   <script>
     $(document).foundation();
   </script>	
-  <script>
-  	$(document).ready(function (){
-  		    var data1 = [
-		    ["", "Kia", "Nissan", "Toyota", "Honda"],
-		    ["2008", 10, 11, 12, 13],
-		    ["2009", 20, 11, 14, 13],
-		    ["2010", 30, 15, 12, 13]
-	  	];
-	  	$("#example1").Handsontable({
-		    data: data1,
-		    startRows: 6,
-		    startCols: 8
-	  	});
-  	});
-  </script> 
+<script>
+  var data = [
+    ["", "Kia", "Nissan", "Toyota", "Honda"],
+    ["2008", 10, 11, 12, 13],
+    ["2009", 20, 11, 14, 13],
+    ["2010", 30, 15, 12, 13]
+  ];
+  $("#example1").handsontable({
+    data: data,
+    startRows: 6,
+    startCols: 8
+  })
+  $("#example2").handsontable({
+    data: data,
+    startRows: 6,
+    startCols: 8
+  });
+</script>  
 </body>
 </html>
