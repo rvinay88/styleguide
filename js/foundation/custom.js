@@ -3,8 +3,8 @@ $(document).ready(function(){
   $(".selectable").click(function(){
       $(this).toggleClass("selected");  
   }); 
-  // Triggering the reveal section when user clicks back and next 
-  $("#next").click(function () {
+  // Triggering the reveal section when user clicks Next 
+  $("#next-products").click(function () {
 		$("#products").trigger('click');
 	});
 })
