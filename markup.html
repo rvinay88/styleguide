@@ -6,6 +6,7 @@
 
   <link rel="stylesheet" href="css/foundation.css">
   <link rel="stylesheet" href="css/styleguide.css">
+  <link rel="stylesheet" href="css/jquery.handsontable.full.css">
 
   <script src="js/vendor/custom.modernizr.js"></script>
 
@@ -179,7 +180,7 @@
 			      <p>Content of section 2.</p>
 			      <div class="row">
 			      	<div class="large-12 columns">
-			      		<div id="example1" class="handsontable">
+			      		<div id="example1">
 			      			
 			      		</div>
 			      	</div>
@@ -214,8 +215,24 @@
   
   <script src="js/foundation.min.js"></script>
   <script src="js/foundation/custom.js"></script>
+  <script src="js/foundation/vendor/jquery.handsontable.full.js"></script>
   <script>
     $(document).foundation();
   </script>	
+  <script>
+  	$(document).ready(function (){
+  		    var data1 = [
+		    ["", "Kia", "Nissan", "Toyota", "Honda"],
+		    ["2008", 10, 11, 12, 13],
+		    ["2009", 20, 11, 14, 13],
+		    ["2010", 30, 15, 12, 13]
+	  	];
+	  	$("#example1").Handsontable({
+		    data: data1,
+		    startRows: 6,
+		    startCols: 8
+	  	});
+  	});
+  </script> 
 </body>
 </html>
