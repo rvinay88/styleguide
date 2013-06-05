@@ -6827,52 +6827,54 @@ input[type=checkbox].hide-sidebar {
 /* line 17, ../scss/foundation/components/_hide-sidebar.scss */
 [for="hide-sidebar"] span {
   position: absolute;
+  display: block;
   float: right;
   top: 0.125em;
-  right: 0.125em;
+  right: 0;
+  font-size: 0.9375em;
 }
-/* line 24, ../scss/foundation/components/_hide-sidebar.scss */
+/* line 26, ../scss/foundation/components/_hide-sidebar.scss */
 [for="hide-sidebar"] span:nth-of-type(1) {
   visibility: visible;
   display: block;
 }
-/* line 27, ../scss/foundation/components/_hide-sidebar.scss */
+/* line 29, ../scss/foundation/components/_hide-sidebar.scss */
 [for="hide-sidebar"] span:nth-of-type(2) {
   visibility: hidden;
   display: none;
 }
 
-/* line 33, ../scss/foundation/components/_hide-sidebar.scss */
+/* line 35, ../scss/foundation/components/_hide-sidebar.scss */
 [role="sidebar"] {
   width: 20%;
   float: left;
   background-color: yellow;
 }
 
-/* line 38, ../scss/foundation/components/_hide-sidebar.scss */
+/* line 40, ../scss/foundation/components/_hide-sidebar.scss */
 [role="expandable"] {
   width: 80%;
   float: right;
 }
 
-/* line 46, ../scss/foundation/components/_hide-sidebar.scss */
+/* line 48, ../scss/foundation/components/_hide-sidebar.scss */
 input[type=checkbox].hide-sidebar:checked ~ [for="hide-sidebar"] span:nth-of-type(1) {
   visibility: hidden;
   display: none;
 }
-/* line 49, ../scss/foundation/components/_hide-sidebar.scss */
+/* line 51, ../scss/foundation/components/_hide-sidebar.scss */
 input[type=checkbox].hide-sidebar:checked ~ [for="hide-sidebar"] span:nth-of-type(2) {
   visibility: visible;
   display: block;
 }
-/* line 53, ../scss/foundation/components/_hide-sidebar.scss */
+/* line 55, ../scss/foundation/components/_hide-sidebar.scss */
 input[type=checkbox].hide-sidebar:checked ~ [role="sidebar"] {
   visibility: hidden;
   display: none;
   width: 0;
   background-color: blue;
 }
-/* line 58, ../scss/foundation/components/_hide-sidebar.scss */
+/* line 60, ../scss/foundation/components/_hide-sidebar.scss */
 input[type=checkbox].hide-sidebar:checked ~ [role="expandable"] {
   width: 100%;
 }
