@@ -6818,6 +6818,50 @@ a.th {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02e;");
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_hide-sidebar\.scss}line{font-family:\000031}}
+input[type=checkbox].hide-sidebar {
+  border: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_hide-sidebar\.scss}line{font-family:\0000312}}
+[role="sidebar"] {
+  background-color: blue;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_hide-sidebar\.scss}line{font-family:\0000316}}
+input[type=checkbox].hide-sidebar:checked ~ [role="sidebar"] {
+  visibility: hidden;
+  display: none;
+  width: 0%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_hide-sidebar\.scss}line{font-family:\0000321}}
+input[type=checkbox]:checked.hide-sidebar:checked ~ [role="expand-on-sidebar-hide"] {
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_hide-sidebar\.scss}line{font-family:\0000324}}
+input[type=checkbox]:checked.hide-sidebar:checked ~ [for="width_sidebar"] {
+  border: none;
+  margin: 0;
+  float: right;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_hide-sidebar\.scss}line{font-family:\0000329}}
+input[type=checkbox]:checked ~ [for="width_sidebar"] span:nth-of-type(3) {
+  display: block;
+  visibility: visible;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_hide-sidebar\.scss}line{font-family:\0000332}}
+input[type=checkbox]:checked ~ [for="width_sidebar"] span:nth-of-type(2) {
+  display: none;
+  visibility: hidden;
+}
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_selectable\.scss}line{font-family:\0000310}}
 .selectable {
   background-color: #cfcfcf;

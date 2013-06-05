@@ -14,189 +14,198 @@
 <body>
 	<div class="row">
 		<div class="large-12 columns">
-		  <form action="" class="custom">
-			<div class="section-container auto" data-section>
-			  <section>
-			    <p class="title" data-section-title><a href="#collection-details">Collection Details</a></p>
-			    <div class="content" data-section-content>
-			      	<div class="row">
-			      		<div class="large-6 columns">
-			      			<label for="">
-			      				Collection Name
-			      			</label>
-			      			<input type="text"></input>
-			      			<label for="season">Season</label>
-							<input type="text"></input>
-			      			<label for="country">Country of Manufacture</label>
-						    <select id="country" class="medium">
-								<option value="21">Belgium</option>
-								<option value="64">El Salvador</option>
-								<option value="73">France</option>
-								<option value="99">India</option>
-								<option value="103">Ireland</option>
-								<option value="105">Italy</option>
-								<option value="118">Lebanon</option>
-								<option value="150">Netherlands</option>
-								<option value="187">Saudi Arabia</option>
-								<option value="197">South Africa</option>
-								<option value="205">Sweden</option>
-								<option value="225">United Kingdom</option>
-								<option value="226">United States</option>
-					    	</select>
-					    	<label for="status">Status</label>
-						    <select id="status" class="medium">
-							    <option>In-Stock</option>
-							    <option>UK</option>
-							    <option>Out of stock</option>
-					    	</select>
-			      		</div>
-			      		<div class="large-6 columns">
-			      			<label for="start-date">Start Date</label>
-			      			<input type="date" id="end-date">End Date</input>
-			      			<input type="date" id="end-date"></input>
+			<div class="large-4 columns" role="sidebar">
+				<input type="checkbox" class="hide-sidebar">
+			    <label for="width_sidebar">
+			    	<span>&raquo;</span>
+  					<span>&laquo;</span>
+  				</label>
+			</div>
+			<div class="large-8 columns" role="expand-on-sidebar-hide">
+			  <form action="" class="custom">
+				<div class="section-container auto" data-section>
+				  <section>
+				    <p class="title" data-section-title><a href="#collection-details">Collection Details</a></p>
+				    <div class="content" data-section-content>
+				      	<div class="row">
+				      		<div class="large-6 columns">
+				      			<label for="">
+				      				Collection Name
+				      			</label>
+				      			<input type="text"></input>
+				      			<label for="season">Season</label>
+								<input type="text"></input>
+				      			<label for="country">Country of Manufacture</label>
+							    <select id="country" class="medium">
+									<option value="21">Belgium</option>
+									<option value="64">El Salvador</option>
+									<option value="73">France</option>
+									<option value="99">India</option>
+									<option value="103">Ireland</option>
+									<option value="105">Italy</option>
+									<option value="118">Lebanon</option>
+									<option value="150">Netherlands</option>
+									<option value="187">Saudi Arabia</option>
+									<option value="197">South Africa</option>
+									<option value="205">Sweden</option>
+									<option value="225">United Kingdom</option>
+									<option value="226">United States</option>
+						    	</select>
+						    	<label for="status">Status</label>
+							    <select id="status" class="medium">
+								    <option>In-Stock</option>
+								    <option>UK</option>
+								    <option>Out of stock</option>
+						    	</select>
+				      		</div>
+				      		<div class="large-6 columns">
+				      			<label for="start-date">Start Date</label>
+				      			<input type="date" id="end-date">End Date</input>
+				      			<input type="date" id="end-date"></input>
 
-			      			<label for="country">Weight Unit</label>
-						    <select id="weight" class="medium">
-								<option value="">LB</option>
-								<option value="">KG</option>
-					    	</select>
-					    	<label for="currency">Currency</label>
-						    <select id="currency" class="medium">
-							    <option>AUD</option>
-							    <option>USD</option>
-							    <option>INR</option>
-							    <option>GBP</option>
-					    	</select>			      			
-			      		</div>
-			      	</div><!--row-->
-			      	<hr>
-			      	<div class="row">
-						<div class="large-12 columns">
-				      		<h3>Size Selection</h3><br>
-					    	<label for="size-selection">Size Selection</label>
-						    <select id="size-selection" class="medium">
-							    <option>US</option>
-							    <option>UK</option>
-							    <option>IT</option>
-					    	</select>								
-						</div>
-			      	</div>
-					<!-- Alert Box -->
-					<div class="row">
-						<div class="large-12 columns">
-							<div class="alert-box title">
-								Apparel
+				      			<label for="country">Weight Unit</label>
+							    <select id="weight" class="medium">
+									<option value="">LB</option>
+									<option value="">KG</option>
+						    	</select>
+						    	<label for="currency">Currency</label>
+							    <select id="currency" class="medium">
+								    <option>AUD</option>
+								    <option>USD</option>
+								    <option>INR</option>
+								    <option>GBP</option>
+						    	</select>			      			
+				      		</div>
+				      	</div><!--row-->
+				      	<hr>
+				      	<div class="row">
+							<div class="large-12 columns">
+					      		<h3>Size Selection</h3><br>
+						    	<label for="size-selection">Size Selection</label>
+							    <select id="size-selection" class="medium">
+								    <option>US</option>
+								    <option>UK</option>
+								    <option>IT</option>
+						    	</select>								
 							</div>
-						</div>	
-						<div class="large-12 columns">
-								<span class="label selectable selected">SMALL</span>
-								<span class="label selectable selected">XS</span>
-								<span class="label selectable">XS</span>
-								<span class="label selectable">XS</span>
-								<span class="label selectable">XS</span>
-								<span class="label selectable">XS</span>
-								<span class="label selectable disabled">M</span>
-								<span class="label selectable disabled">XS</span>
-								<span class="label selectable">XS</span>
-								<span class="label selectable">XS</span>
-						</div>
-					</div>
-					<div class="row">
-						<div class="large-12 columns">
-							<div class="alert-box title">Shoes</div>							
-						</div>
-						<div class="large-12 columns">
-								<span class="label selectable selected">selected</span>
-								<span class="label selectable selected">XS</span>
-								<span class="label selected">Selected b</span>
-								<span class="label selected">XS</span>
-								<span class="label selectable">XS</span>
-								<span class="label selectable">XS</span>
-								<span class="label selectable disabled">L</span>
-								<span class="label selectable disabled">XS</span>
-								<span class="label selectable">XS</span>
-								<span class="label selectable">XS</span>
-						</div>
-					</div>		
-					<div class="row">
-						<div class="large-12 columns">
-							<div class="alert-box title">Custom</div>														
-						</div>
-						<div class="large-12 columns">
-								<button class="small round button secondary"><i class="foundicon-plus"></i>Add New</button>
-								<button class="small round button secondary"><i class="foundicon-edit"></i>Edit</button>
-						</div>
-						<div class="large-12 columns appendable">
-							<label for="custom-size-input">Enter Custom Size here</label>
-							<div class="large-4 columns">
-								<input type="text" id="custom-size-input"></input>
+				      	</div>
+						<!-- Alert Box -->
+						<div class="row">
+							<div class="large-12 columns">
+								<div class="alert-box title">
+									Apparel
+								</div>
+							</div>	
+							<div class="large-12 columns">
+									<span class="label selectable selected">SMALL</span>
+									<span class="label selectable selected">XS</span>
+									<span class="label selectable">XS</span>
+									<span class="label selectable">XS</span>
+									<span class="label selectable">XS</span>
+									<span class="label selectable">XS</span>
+									<span class="label selectable disabled">M</span>
+									<span class="label selectable disabled">XS</span>
+									<span class="label selectable">XS</span>
+									<span class="label selectable">XS</span>
 							</div>
-						</div><!-- Alert Box -->
-						<div class="large-12 columns">
-							<span class="label">Custom</span>
 						</div>
-		    		</div>
-					<div class="row">
-						<div class="large-12 columns">
-							<div class="right"> <!-- Next Button -->
-								<a href="#products">
-									<div class="button primary radius" id="next-products">
-										Next
-									</div>
-								</a>
-							</div> <!-- Next Button -->							
+						<div class="row">
+							<div class="large-12 columns">
+								<div class="alert-box title">Shoes</div>							
+							</div>
+							<div class="large-12 columns">
+									<span class="label selectable selected">selected</span>
+									<span class="label selectable selected">XS</span>
+									<span class="label selected">Selected b</span>
+									<span class="label selected">XS</span>
+									<span class="label selectable">XS</span>
+									<span class="label selectable">XS</span>
+									<span class="label selectable disabled">L</span>
+									<span class="label selectable disabled">XS</span>
+									<span class="label selectable">XS</span>
+									<span class="label selectable">XS</span>
+							</div>
+						</div>		
+						<div class="row">
+							<div class="large-12 columns">
+								<div class="alert-box title">Custom</div>														
+							</div>
+							<div class="large-12 columns">
+									<button class="small round button secondary"><i class="foundicon-plus"></i>Add New</button>
+									<button class="small round button secondary"><i class="foundicon-edit"></i>Edit</button>
+							</div>
+							<div class="large-12 columns appendable">
+								<label for="custom-size-input">Enter Custom Size here</label>
+								<div class="large-4 columns">
+									<input type="text" id="custom-size-input"></input>
+								</div>
+							</div><!-- Alert Box -->
+							<div class="large-12 columns">
+								<span class="label">Custom</span>
+							</div>
+			    		</div>
+						<div class="row">
+							<div class="large-12 columns">
+								<div class="right"> <!-- Next Button -->
+									<a href="#products">
+										<div class="button primary radius" id="next-products">
+											Next
+										</div>
+									</a>
+								</div> <!-- Next Button -->							
+							</div>
 						</div>
-					</div>
-				</div> <!--Data Content  -->		    		
-			  </section>
-			  <section>
-			    <p class="title" data-section-title id="products"><a href="#products">Products</a></p>
-			    <div class="content" data-section-content>
-			      <p>To upload your collection to R2S marketplace using a spreadsheet , download our template</p>
-			      <div class="row">
-			      	<div class="large-12 columns">
-			      		<div id="example1">
-			      			
-			      		</div>
-			      	</div>
-			      </div>
-					<div class="row">
-						<div class="large-12 columns">
-							<div class="right"> <!-- Next Button -->
-								<a href="#products">
-									<div class="button primary radius" id="next-inventory">
-										Next
-									</div>
-								</a>
-							</div> <!-- Next Button -->								
-						</div>
-					</div>									      
-			    </div>
-			  </section>
-			  <section>
-			    <p class="title" data-section-title id="inventory"><a href="#inventory">Inventory</a></p>
-			    <div class="content" data-section-content id="content">
-			      <p>To upload your collection to R2S marketplace using a spreadsheet , download our template</p>
-			      	<div class="large-12 columns">
-			      		<div id="example2">
-			      			
-			      		</div>
-			      	</div>
-					<div class="row">
-						<div class="large-12 columns">
-							<div class="right"> <!-- Next Button -->
-								<a href="#products">
-									<div class="button primary radius" id="save">
-										Save
-									</div>
-								</a>
-							</div> <!-- Next Button -->								
-						</div>
-					</div>					      	
-			    </div>	<!-- Content  -->		      
-			  </section>	  		    			  
-			</div> <!-- Section Container -->			
-		  </form>
+					</div> <!--Data Content  -->		    		
+				  </section>
+				  <section>
+				    <p class="title" data-section-title id="products"><a href="#products">Products</a></p>
+				    <div class="content" data-section-content>
+				      <p>To upload your collection to R2S marketplace using a spreadsheet , download our template</p>
+				      <div class="row">
+				      	<div class="large-12 columns">
+				      		<div id="example1">
+				      			
+				      		</div>
+				      	</div>
+				      </div>
+						<div class="row">
+							<div class="large-12 columns">
+								<div class="right"> <!-- Next Button -->
+									<a href="#products">
+										<div class="button primary radius" id="next-inventory">
+											Next
+										</div>
+									</a>
+								</div> <!-- Next Button -->								
+							</div>
+						</div>									      
+				    </div>
+				  </section>
+				  <section>
+				    <p class="title" data-section-title id="inventory"><a href="#inventory">Inventory</a></p>
+				    <div class="content" data-section-content id="content">
+				      <p>To upload your collection to R2S marketplace using a spreadsheet , download our template</p>
+				      	<div class="large-12 columns">
+				      		<div id="example2">
+				      			
+				      		</div>
+				      	</div>
+						<div class="row">
+							<div class="large-12 columns">
+								<div class="right"> <!-- Next Button -->
+									<a href="#products">
+										<div class="button primary radius" id="save">
+											Save
+										</div>
+									</a>
+								</div> <!-- Next Button -->								
+							</div>
+						</div>					      	
+				    </div>	<!-- Content  -->		      
+				  </section>	  		    			  
+				</div> <!-- Section Container -->			
+			  </form>				
+			</div>
 		</div> <!-- Large -12  -->
 	</dvi> <!-- Row -->
   <script>
