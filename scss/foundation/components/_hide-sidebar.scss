@@ -10,18 +10,17 @@
 
 // Styling the Checkbox
 input[type=checkbox].hide-sidebar {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  width: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  // @include hide-this;
+  @include hide-this;
 }
 
 [for="hide-sidebar"]{
+	span{
+		position: absolute;
+		float: right;
+		top: emCalc(2px);
+		right: emCalc(2px);
+	}
+	// Show only one of the spans 
 	span:nth-of-type(1){
 		@include show-this;
 	}
@@ -29,16 +28,19 @@ input[type=checkbox].hide-sidebar {
 		@include hide-this;
 	}
 }
+
+// Default widths
 [role="sidebar"]{
-	width: 30%;
+	width: 20%;
 	float: left;
 	background-color: yellow;	
 }
-[role="expand-on-sidebar-hide"]{
-	width: 70%;
+[role="expandable"]{
+	width: 80%;
 	float: right;
 }
 
+// change behavior upon clicking the button
 input[type=checkbox].hide-sidebar:checked {
 	~ [for="hide-sidebar"] {
 		span:nth-of-type(1){
@@ -50,10 +52,10 @@ input[type=checkbox].hide-sidebar:checked {
 	}
 	~ [role="sidebar"]{
 		@include hide-this;
-		width: 0%;
+		width: 0;
 		background-color: blue;
 	}
-	~[role="expand-on-sidebar-hide"] {
+	~[role="expandable"] {
 		width: 100%;
 	}	
 }

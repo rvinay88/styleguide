@@ -1,4 +1,4 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_style\.scss}line{font-family:\0000314}}
+/* line 14, ../scss/foundation/components/_style.scss */
 .blk {
   width: 50px;
   height: 50px;
@@ -8,68 +8,68 @@
   padding: 0.25em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_style\.scss}line{font-family:\0000323}}
+/* line 23, ../scss/foundation/components/_style.scss */
 .blk-primary-color {
   background-color: #2b2b2b;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_style\.scss}line{font-family:\0000326}}
+/* line 26, ../scss/foundation/components/_style.scss */
 .blk-primary-color-light {
   background-color: #5e5e5e;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_style\.scss}line{font-family:\0000329}}
+/* line 29, ../scss/foundation/components/_style.scss */
 .blk-primary-color-dark {
   background-color: black;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_style\.scss}line{font-family:\0000333}}
+/* line 33, ../scss/foundation/components/_style.scss */
 .blk-secondary-color {
   background-color: #cfcfcf;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_style\.scss}line{font-family:\0000336}}
+/* line 36, ../scss/foundation/components/_style.scss */
 .blk-secondary-color-light {
   background-color: white;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_style\.scss}line{font-family:\0000339}}
+/* line 39, ../scss/foundation/components/_style.scss */
 .blk-secondary-color-dark {
   background-color: #9c9c9c;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_style\.scss}line{font-family:\0000342}}
+/* line 42, ../scss/foundation/components/_style.scss */
 .blk-info-color {
   background-color: #4caed9;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_style\.scss}line{font-family:\0000345}}
+/* line 45, ../scss/foundation/components/_style.scss */
 .blk-warning-color {
   background-color: #f2994b;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_style\.scss}line{font-family:\0000349}}
+/* line 49, ../scss/foundation/components/_style.scss */
 .blk-alert-color {
   background-color: #a92906;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_style\.scss}line{font-family:\0000352}}
+/* line 52, ../scss/foundation/components/_style.scss */
 .blk-success-color {
   background-color: #7a9942;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_style\.scss}line{font-family:\0000355}}
+/* line 55, ../scss/foundation/components/_style.scss */
 .sg-font {
   font-size: 30px;
   line-height: 2em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_style\.scss}line{font-family:\0000359}}
+/* line 59, ../scss/foundation/components/_style.scss */
 .sg-font-primary {
   font-family: futuralight;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user5\/work\/foundation\/styleguide\/scss\/foundation\/components\/_style\.scss}line{font-family:\0000362}}
+/* line 62, ../scss/foundation/components/_style.scss */
 .sg-font-secondary {
   font-family: "Helvetica Neue";
 }
