@@ -1,25 +1,21 @@
 $selectable-background-color: $secondary-color;
-
+$selectable-font-color:       black;
 $selected-color: $primary-color;
 $selected-font-color: white;
 
-$disabled-color: $secondary-color;
-
 $selctable-padding: emCalc(10px);
-$selectable-margin: emCalc(10px);
+$selectable-margin: emCalc(10px) emCalc(20px) emCalc(10px) 0;
 
 
-.selectable, .disabled{
+.selectable {
 	background-color: $selectable-background-color;
 	cursor: pointer;
 	margin: $selectable-margin;
+	color: $selectable-font-color;
 }
 
 .selected{
 		background-color: $selected-color;
 		color: $selected-font-color;
+		margin: $selectable-margin;		
 	}
-
-.disabled{
-	background-color: $alert-color;
-}

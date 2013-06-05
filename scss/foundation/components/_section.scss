@@ -10,7 +10,7 @@ $section-function-factor:           10% !default;
 
 // These style the titles
 $section-title-color:               #333 !default;
-$section-title-bg:                  #efefef !default;
+$section-title-bg:                  $secondary-color !default;
 $section-title-bg-active:           darken($section-title-bg, $section-function-factor) !default;
 $section-title-bg-active-tabs:      #fff !default;
 $section-title-bg-hover:            darken($section-title-bg, $section-function-factor/2) !default;

@@ -266,3 +266,11 @@ $custom-dropdown-width-large:           434px !default;
     .custom.disabled { background: $custom-form-bg-disabled; }
   }
 }
+
+.silent{
+  border: none;
+  background: transparent;
+  &:hover, &:focus{
+    border: none;
+  }
+}

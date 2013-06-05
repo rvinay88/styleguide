@@ -22,7 +22,7 @@ $alert-function-factor:     10%                                            !defa
 $alert-border-style:        solid                                          !default;
 $alert-border-width:        1px                                            !default;
 $alert-border-color:        darken($primary-color, $alert-function-factor) !default;
-$alert-bottom-margin:       emCalc(20px)                                   !default;
+$alert-margin:              emCalc(20px) 0                                 !default;
 
 // We use these to style the close buttons
 $alert-close-color:         #000                                           !default;
@@ -34,7 +34,7 @@ $alert-close-padding:       5px 4px 4px                                    !defa
 
 // We use this to control border radius
 $alert-radius:              $global-radius                                 !default;
-
+$title-alert-color:         $secondary-color-light                               !default;
 //
 // Alert Mixins
 //
@@ -45,7 +45,7 @@ $alert-radius:              $global-radius                                 !defa
   border-width: $alert-border-width;
   display: block;
   font-weight: $alert-font-weight;
-  margin-bottom: $alert-bottom-margin;
+  margin: $alert-margin;
   position: relative;
   padding: $alert-padding-top $alert-padding-opposite-direction $alert-padding-bottom $alert-padding-default-float;
   font-size: $alert-font-size;
@@ -106,6 +106,7 @@ $alert-radius:              $global-radius                                 !defa
     &.secondary { @include alert-style($secondary-color); }
     &.info { @include alert-style($info-color); }
     &.warning { @include alert-style($warning-color); }
+    &.title { @include alert-style($title-alert-color); }
   }
 
 }
