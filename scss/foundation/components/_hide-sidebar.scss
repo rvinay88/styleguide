@@ -1,0 +1,59 @@
+@mixin hide-this{
+	visibility: hidden;
+	display: none;
+}
+
+@mixin show-this{
+	visibility: visible;
+	display: block;
+}
+
+// Styling the Checkbox
+input[type=checkbox].hide-sidebar {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  // @include hide-this;
+}
+
+[for="hide-sidebar"]{
+	span:nth-of-type(1){
+		@include show-this;
+	}
+	span:nth-of-type(2){
+		@include hide-this;
+	}
+}
+[role="sidebar"]{
+	width: 30%;
+	float: left;
+	background-color: yellow;	
+}
+[role="expand-on-sidebar-hide"]{
+	width: 70%;
+	float: right;
+}
+
+input[type=checkbox].hide-sidebar:checked {
+	~ [for="hide-sidebar"] {
+		span:nth-of-type(1){
+			@include hide-this;
+		}
+		span:nth-of-type(2){
+			@include show-this;
+		}
+	}
+	~ [role="sidebar"]{
+		@include hide-this;
+		width: 0%;
+		background-color: blue;
+	}
+	~[role="expand-on-sidebar-hide"] {
+		width: 100%;
+	}	
+}
