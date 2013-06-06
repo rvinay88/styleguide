@@ -1,6 +1,6 @@
 #Guide for images#
 
-**Contents**
+__Contents__
 
 - [Generic Rules](#generic-rules)
 - [Full size products](#full-size-products)
