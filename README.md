@@ -1,8 +1,8 @@
 #Guide for images#
 
 __Contents__
-
-- [Generic Rules](#generic-rules)
+- [Image dimensions](#Image-dimensions)
+- [Generic rules](#generic-rules)
 - [Full size products](#full-size-products)
 - [Medium to full size images](#medium-to-full-size-images)
 - [Torso Images](#torso-images)
@@ -10,9 +10,16 @@ __Contents__
 - [Product Images](#product-images)
 - [Grid](#grid)
 
+##Image Dimensions##
+
+- Hero Images 1280x720px
+- Profile Images 640x427px
+- All other images 640x960px (scripts will reduce sizes as required)
+- Aspect Ratio 2:3 to be maintained 
+
 ##Generic Rules##
 
-* Image proportion maintained at 640x960px 
+* All images to be saved as progressive JPEGs (progressive in 3 steps)
 * No white space above and below the model (No shoe reflections)
 * Align all images to center of the grid 
 * Zoom level to be maintained in all the images
